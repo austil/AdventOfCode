@@ -1,4 +1,4 @@
--- Advent of code 2015, Day 2: I Was Told There Would Be No Math
+-- Advent of code 2015, Day 2 : I Was Told There Would Be No Math
 
 ---- #### Code #### ----
 
