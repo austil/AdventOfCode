@@ -7,7 +7,7 @@ function findFloor( directions )
 	floor = 0
 
 	for c in directions:gmatch"." do
-		if	c == '(' then
+		if c == '(' then
 			floor = floor + 1
 		elseif c == ')' then
 			floor = floor - 1
@@ -27,6 +27,7 @@ function basementCharacter ( directions )
 		elseif c == ')' then
 			floor = floor - 1
 		end
+		
 		if floor == -1 then
 			break
 		else
