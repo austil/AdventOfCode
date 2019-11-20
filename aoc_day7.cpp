@@ -201,10 +201,8 @@ const wires testCircuitResults{
 
 int main(int argc, char const *argv[])
 {
-  wires result;
-
   cout << "Starting Test\n";
-  result = runCircuit(testCircuitInstructions);
+  wires result = runCircuit(testCircuitInstructions);
   if (result != testCircuitResults)
   {
     cout << "Test Failed, result :\n";
